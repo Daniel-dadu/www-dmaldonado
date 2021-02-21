@@ -1,22 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 body {
+    margin : 0;
     font-size: 14px;
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
     background: rgb(51, 51, 51);
 }
 
-p {
-    color: rgb(255, 197, 197);
-}
 a {
     color: rgb(182, 182, 255);
 }
 h1 {
+
     font-weight: 100;
     padding: 5px 100px;
     margin: auto;
+    margin-top: 10px;
     text-decoration: none;
     max-width: fit-content;
     background-color: black;
@@ -32,13 +32,175 @@ h2 {
 }
 
 .intro{
-    
-    text-align: justify;
-    background-color: blue;
-    width: 300px;
+    font-size: 2.5em;
+    color: rgb(255, 197, 197);
+    margin: auto;
+    padding: 20px;
+    background-color: #2f4f4f;
+    width: 50%;
+    border-radius: 10px;
+    z-index: -1;
 }
 
-table {
+.intro div {
+    margin-top: 20px;
+    font-size: 0.5em;
+    line-height: 2em;
+}
+
+.list1 h3 {
+    margin: 0;
+}
+
+.list1 ul {
+    margin-bottom: 3px;
+}
+
+.list1 {
+    background-color: #537a7a;
+    padding: 10px;
+    font-size: 1.25em;
+    width: 25%;
+    position: absolute;
+    top: 150px;
+    right: 18%;
+    border-style: groove;
+    border-radius: 20px;
+}
+
+.tabla{
+    margin: auto;
+    width: 50%;
+    background-color: black;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tabla h3 {
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.tabla table {
     border-collapse: collapse;
-    border-color: white;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.tabla tr:hover {
+    background-color: rgb(37, 37, 37);
+    font-style: italic;
+}
+
+.tabla table th, td{
+    border-bottom: 1px solid #ddd;
+    padding: 15px;
+    text-align: left;
+}
+
+.enc{
+    position: fixed;
+    background-color: #162525;
+    top: 0;
+    width: 20%;
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10%;
+    border-style: groove;
+}
+
+.enc input[type = "name"], .enc input[type = "spe"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(182, 182, 255);
+    padding: 14px 10px;
+    width: 50%;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.enc input[type = "name"]:focus, .enc input[type = "spe"]:focus {
+    width: 70%;
+    border-color: rgb(169, 240, 174);
+}
+
+.enc textarea{
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(182, 182, 255);
+    padding: 14px 10px;
+    width: 50%;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.enc textarea:focus {
+    width: 70%;
+    border-color: rgb(169, 240, 174);
+}
+
+.punt {
+    padding-left: 40%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.punt:hover{
+    color: rgb(169, 240, 174);
+}
+
+.punt input:hover {
+    cursor: pointer;
+}
+
+.enc input[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    border: 2px solid rgb(169, 240, 174);
+    padding: 14px 40px;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.enc input[type = "submit"]:hover{
+    background: rgb(169, 240, 174);
+    color: black;
+    cursor: pointer;
+}
+
+.enla h2 {
+    font-size: 2em;
+}
+
+.enla p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.reus {
+    position: fixed;
+    top: 0;
+    right: 0;
+    text-align: center;
+    z-index: -1;
+}
+
+.reus img {
+    border-radius: 50%;
 }

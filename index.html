@@ -7,69 +7,108 @@
     <h1>This is my first web site! </h1>
     <h2> How exciting </h2>
 
-    <p class="intro">SIuuu, mucho <strong><em>texto</em></strong> divertido
+    <div class="intro">SIUUU, mucho <strong><em>texto</em></strong> divertido
     <br><strong>Warning:</strong> esto es muy épico <br>
-    </p>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            <br> Enim sed laborum tempore totam maiores corrupti eligendi, 
+            <br> repudiandae quasi maxime natus reprehenderit porro. 
+            <br> Quo tenetur obcaecati iure officia, aliquid recusandae provident!
+        </div>
+    </div>
 
-    <h3>Pero qué chuchas pasa?</h3>
-    <ul>
-        <li>Estoy aprendiendo <strong>HTML</strong></li>
-        <li>Para <i>presumirlo</i></li>
-        <ol>
-            <li>one</li>
-            <li>two</li>
-            <li>three</li>
-        </ol>
-        <li>Y me gusta mi computadora porque soy ITECE</li>
-    </ul>
+    <div class="list1">
+        <h3>¿Pero qué chuchas pasa?</h3>
+        <ul>
+            <li>Estoy aprendiendo <strong>HTML</strong></li>
+            <li>Para <i>presumirlo</i></li>
+            <ol>
+                <li>one</li>
+                <li>two</li>
+                <li>three</li>
+            </ol>
+            <li>Y me gusta mi computadora porque soy ITECE</li>
+        </ul>
+    </div>
 
-    <h3>Ahora hagamos una tabla:</h3>
-    <table border="1">
-        <tr>
-            <th> Nombre </th>
-            <th> Dirección </th>
-            <th> Más texto </th>
-        </tr>
-        <tr>
-            <td> Pablo </td>
-            <td> Puebla </td>
-            <td> Le gusta el sushi</td>
-        </tr>
-        <tr>
-            <td> row 2, cell 1</td>
-            <td> row 2, cell 2</td>
-            <td> row 2, cell 3</td>
-        </tr>
-    </table>
+    <div class="tabla">
+        <h3>Ahora hagamos una tabla:</h3>
+        <table>
+            <tr>
+                <th> Nombre </th>
+                <th> Dirección </th>
+                <th> Más texto </th>
+            </tr>
+            <tr>
+                <td> Pablo </td>
+                <td> Puebla </td>
+                <td> Le gusta el sushi</td>
+            </tr>
+            <tr>
+                <td>Island Trading</td>
+                <td>Helen Bennett</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Königlich Essen</td>
+                <td>Philip Cramer</td>
+                <td>Germany</td>
+            </tr>
+            <tr>
+                <td>Laughing Bacchus Winecellars</td>
+                <td>Yoshi Tannamuri</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Magazzini Alimentari Riuniti</td>
+                <td>Giovanni Rovelli</td>
+                <td>Italy</td>
+            </tr>
+            <tr>
+                <td>North/South</td>
+                <td>Simon Crowther</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Paris spécialités</td>
+                <td>Marie Bertrand</td>
+                <td>France</td>
+            </tr>
+        </table>
+    </div>
 
-    <form>
-        <p>Name: </p>
-        <p><input type="text" name="name" value="Your Name"></p>
+    <div class="enc">
+        <form>
+            <p>Name: </p>
+            <p><input type="name" name="name" placeholder="Nombre"> </p>
+    
+            <p>Species: </p>
+            <p><input type="spe" name="species" placeholder="Especie"> </p>
+    
+            <p>Comments: </p>
+            <p><textarea name="comments" cols="20" rows="5" maxlength="100" placeholder="Ponga comments plis"></textarea></p> 
+            <!--maxlength te permite delimitar el número máximo de caracteres que puedes ingresar-->
+    
+            <p>Are you: </p>
+            <p class="punt"><input type="radio" name="areyou" value="name"> Male</p>
+            <p class="punt"><input type="radio" name="areyou" value="name"> Female</p>
+            <p class="punt"><input type="radio" name="areyou" value="name"> Malota</p>
+            <p class="punt"><input type="radio" name="areyou" value="name"> Malito</p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+    </div>
 
-        <p>Species: </p>
-        <p><input type="text" name="species" ></p>
+    <div class="enla">
+        <h2>Links que debes consultar</h2>
+        <p>Abre lo siguiente: <a href="http://adsoft.com.pe">Dale</a></p>
+        <p>Vamos al <a href="about.html">about</a></p>
+    </div>
 
-        <p>Comments: </p>
-        <p><textarea name="comments" cols="20" rows="5" maxlength="100">Your comments</textarea></p> 
-        <!--maxlength te permite delimitar el número máximo de caracteres que puedes ingresar-->
-
-        <p>Are you: </p>
-        <p><input type="radio" name="areyou" value="name">Male</p>
-        <p><input type="radio" name="areyou" value="name">Female</p>
-        <p><input type="radio" name="areyou" value="name">Malota</p>
-        <p><input type="radio" name="areyou" value="name">Malito</p>
-        <p><input type="submit" value="Submit"></p>
-    </form>
-
-    <h2>Más texto</h2>
-    <p>Abre lo siguiente: <a href="http://adsoft.com.pe">Dale</a></p>
-    <p>Vamos al <a href="about.html">about</a></p>
-    <br><br>
-    <center>
+    <div class="reus">
         <h4>Te dejo una foto secsi</h4>
         <a href="https://reus.com">
-            <img src="https://instagram.fvsa2-1.fna.fbcdn.net/v/t51.2885-15/e35/67239679_146159663149143_6879427309622505292_n.jpg?_nc_ht=instagram.fvsa2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=qJESsRAxwf8AX-fCX1t&tp=1&oh=00647196bf10b374f9b41fe16c77d7d0&oe=6056CDA0" alt="reusito" width="560" height="560"> 
+            <img src="https://instagram.fvsa2-1.fna.fbcdn.net/v/t51.2885-15/e35/67239679_146159663149143_6879427309622505292_n.jpg?_nc_ht=instagram.fvsa2-1.fna.fbcdn.net&_nc_cat=103&_nc_ohc=qJESsRAxwf8AX-fCX1t&tp=1&oh=00647196bf10b374f9b41fe16c77d7d0&oe=6056CDA0" alt="reusito" width="360" height="360"> 
         </a>
-    </center>
+    </div>
 </body>
 </html>
