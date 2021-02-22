@@ -60,10 +60,10 @@ h2 {
     background-color: #537a7a;
     padding: 10px;
     font-size: 1.25em;
-    width: 25%;
+    width: 15%;
     position: absolute;
     top: 150px;
-    right: 18%;
+    right: 20%;
     border-style: groove;
     border-radius: 20px;
 }
@@ -204,3 +204,7 @@ h2 {
 .reus img {
     border-radius: 50%;
 }
+
+/*
+@media only screen and(max-width: )
+*/
